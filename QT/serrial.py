@@ -41,8 +41,8 @@ if __name__ == '__main__':
 
         try:
             # 发送命令（确保以正确的格式发送）
-            #command_to_send = "mount -rw -o remount /"
-            #send_command(command_to_send)
+            command_to_send = "mount -rw -o remount /"
+            send_command(command_to_send)
             time.sleep(5)
             command_to_send = "mount -uw /usr/adaptive"
             send_command(command_to_send)
